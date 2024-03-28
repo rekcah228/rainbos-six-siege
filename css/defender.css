@@ -1,0 +1,51 @@
+h1 {text-align: center;}
+
+p {text-align: right;
+}
+
+img { width:100%;
+ }
+
+.navbar ul {
+	list-style-type: none;
+	background-color: #1b1c1c;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.navbar a{
+	color: white; 
+	text-decoration: none;
+	padding: 12px;
+	display: block;
+	text-align: center;
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar a:hover {
+	background-color: #000808;
+}
+
+.Wrapper-Main {
+	width: 100%;
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1280px)
+{
+	.Wrapper-Main {width: 100%;}
+    h1 {background-color: red;}
+}
+
+@media only screen and (max-width: 601px)
+{
+	.Wrapper-main {width: 100%;}
+	
+
+
+}
